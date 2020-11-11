@@ -659,12 +659,10 @@ h6 {
     -webkit-border-radius: 100%;
     -khtml-border-radius: 100%;
 }
-.home .gradient{
+.home .img-fluid{
     width: 200px;
     height: auto;
     position: relative;
-    top: 10px;
-    left: 550px;
     background: rgb(255,0,0);
     background: linear-gradient(45deg, rgba(255,0,0,0.2665441176470589) 0%, rgba(255,0,0,0) 100%);
     border-radius: 100%;
