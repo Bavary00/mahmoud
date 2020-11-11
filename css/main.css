@@ -1094,7 +1094,14 @@ h6 {
     padding: 0 20px 30px;
     margin: 0;
 }
-
+.resume .service {
+	  background: transparent;
+    width: 150%;
+    padding: 25px 35px;
+    border: 1px solid #fd5c55;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
 /* --------------------------------------
    10. Fun Facts
 -----------------------------------------*/
