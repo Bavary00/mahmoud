@@ -1,0 +1,142 @@
+.main-title h3,
+.main-btn:hover,
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus,
+.navbar .navbar-nav > li > .nav-link.active,
+.demo2 .navbar .navbar-nav > li > .nav-link.active,
+.demo3 .navbar .navbar-nav > li > .nav-link.active,
+.demo2 .navbar.active-nav .navbar-nav > li > .nav-link.active,
+.demo3 .navbar.active-nav .navbar-nav > li > .nav-link.active,
+.demo2 .home .intro h1,
+.demo3 .home .intro h1,
+.home .down:hover a,
+.demo2.light .home .down:hover a,
+.demo3.light .home .down:hover a,
+.services .service .service-icon i:before,
+.facts .fact-item .fact-number,
+.facts .fact-item .fact-number + span,
+.portfolio .list-filter li.active,
+.testimonials .testimonial-box .flaticon-right-quote:before,
+.testimonials .client-details span,
+.blog .post .post-content .post-title h4:hover,
+.contact .contact-box .icon-box i:before,
+.footer .logo,
+.light .footer .footer-social-icons li a,
+.footer .copyright p a,
+.scroll-top:hover {
+    color: #fd5c55;
+}
+
+.main-title h2:after,
+.number:before,
+.navbar .menu-toggle .bar,
+.home .home-intro:before,
+.home .down:hover:before,
+.demo2.light .home .down:hover:before,
+.demo3.light .home .down:hover:before,
+.skills .progress-container .progress .progress-bar,
+.light .resume .timeline:before,
+.resume .timeline ul li:before,
+.light .facts .overlay,
+.portfolio .portfolio-content .item .overlay .item-category span:before,
+.testimonials .owl-carousel .owl-nav button.owl-next:hover,
+.testimonials .owl-carousel .owl-nav button.owl-prev:hover,
+.blog .post .post-content .post-date,
+.blog .post .post-content .post-more:hover,
+.footer .footer-social-icons li a:hover,
+.scroll-top:hover:before {
+	background-color: #fd5c55;
+}
+
+.about-me .about-info .personal-info,
+.services .service,
+.resume .timeline ul li .timeline-content,
+.facts .fact-item,
+.testimonials .owl-carousel .owl-nav button.owl-next,
+.testimonials .owl-carousel .owl-nav button.owl-prev,
+.testimonials .testimonial-box,
+.contact .contact-box.two,
+.contact .contact-box:hover,
+.contact .contact-form .form-group .form-control:focus,
+.footer .footer-social-icons li a {
+    border: 1px solid #fd5c55;
+}
+
+.demo2 .home .down:hover a,
+.demo3 .home .down:hover a {
+	color: #fd5c55 !important;
+}
+
+.demo2 .home .down:hover:before,
+.demo3 .home .down:hover:before {
+	background: #fd5c55 !important;
+}
+
+.navbar .navbar-collapse > a,
+.skills .progress-container .percent,
+.blog .post .post-content .post-more{
+	color: #fd5c55;
+    border: 1px solid #fd5c55;
+}
+
+.main-btn,
+.navbar .navbar-collapse > a:hover {
+    background-color: #fd5c55;
+    border: 1px solid #fd5c55;
+}
+
+.preloader .loading-inner,
+.preloader .loading-inner:before,
+.preloader .loading-inner:after {
+	border-top-color: #fd5c55;
+}
+
+.skills .progress-container .percent:before {
+	border: 1px solid #fd5c55;
+	border-color: transparent #fd5c55 #fd5c55 transparent;
+}
+
+.resume .timeline ul li:nth-child(odd) .timeline-content:before {
+    border: 1px solid #fd5c55;
+    border-color: transparent #fd5c55 #fd5c55 transparent;
+}
+
+.resume .timeline ul li:nth-child(even) .timeline-content:before {
+    border: 1px solid #fd5c55;
+    border-color: #fd5c55 transparent transparent #fd5c55;
+}
+
+.blog .post .post-content {
+    border-bottom-color: #fd5c55;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar .navbar-nav > li > .nav-link.active,
+	.demo2 .navbar .navbar-nav > li > .nav-link.active,
+	.demo3 .navbar .navbar-nav > li > .nav-link.active {
+		color: #fd5c55;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+    .navbar .navbar-nav > li > .nav-link.active,
+	.demo2 .navbar .navbar-nav > li > .nav-link.active,
+	.demo3 .navbar .navbar-nav > li > .nav-link.active,
+	.resume .timeline ul li .timeline-content span {
+		color: #fd5c55;
+    }
+
+	.resume .timeline ul li:nth-child(even) .timeline-content:before,
+	.resume .timeline ul li:nth-child(odd) .timeline-content:before {
+		border-color: #fd5c55 #fd5c55 transparent transparent;
+    }
+
+	.contact .contact-box {
+		border: 1px solid #fd5c55;
+	}
+
+}
