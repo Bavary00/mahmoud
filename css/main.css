@@ -1,10 +1,4 @@
 /*-----------------------------------------------------------------
-Template Name  : Yazen - Personal Portfolio
-Author         : ThemeMix
-Version        : 1.0
-Primary Use    : Personal, Porfolio
------------------------------------------------------------------*/
-/*-----------------------------------------------------------------
 Table Of Contents
 --------------------------------
  1. Global Styles
@@ -1616,12 +1610,35 @@ h6 {
 }
 
 .contact .contact-form .form-group .form-control:focus {
-    border: 1px solid #fdd05a;
+    border: 1px solid #fd5c55;
 }
-
-.contact .contact-form .contact-btn {
-    min-width: 175px;
-	cursor: pointer;
+.contact .contact-form .contact-btn:focus {
+    border: 1px solid #fd5c55;
+}
+.contact .contact-form .contact-btn{
+    display:inline-block;
+    padding:0.6em 2.4em;
+    margin:0 0.1em 0.1em 0;
+    border:0.22em solid rgba(255,255,255,0);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:3000;
+    color:#FFFFFF;
+    text-align:center;
+    font-size: 16px;
+    transition: all 0.2s;
+    background-color:#fd5c55;
+}
+.contact .contact-form .contact-btn:hover{
+    border-color: #971811b4;
+}
+@media all and (max-width:50em){
+    .contact .contact-form .contact-btn{
+    display:block;
+    margin:0.2em auto;
+    }
 }
 
 /* --------------------------------------
